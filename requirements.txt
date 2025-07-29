@@ -1,0 +1,32 @@
+# ===== CORE FASTAPI DEPENDENCIES =====
+fastapi>=0.104.1
+uvicorn[standard]>=0.24.0
+python-dotenv>=1.0.1
+pydantic>=2.5.0
+
+# ===== AI/ML LIBRARIES =====
+google-generativeai>=0.7.0
+tavily-python>=0.3.0
+langchain>=0.2.0
+langchain-google-genai>=1.0.0
+
+# ===== DATA PROCESSING =====
+pandas>=2.2.0
+numpy>=1.24.0
+
+# ===== WEB UTILITIES =====
+requests>=2.32.0
+aiohttp>=3.9.1
+beautifulsoup4>=4.12.0
+
+# ===== PDF PROCESSING (Optional) =====
+PyPDF2>=3.0.0
+pdfplumber>=0.10.0
+
+# ===== VECTOR SEARCH (Optional) =====
+faiss-cpu>=1.7.4
+sentence-transformers>=2.2.0
+
+# ===== UTILITIES =====
+python-multipart>=0.0.6  # สำหรับ file uploads
+jinja2>=3.1.2  # สำหรับ template rendering หากต้องการ
